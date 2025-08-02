@@ -1,0 +1,23 @@
+{
+  "contractId": "aa46aa1a73c2be4f",
+  "config": {
+    "secret": "0x68cdfca731f7e3482eeada7f3a1a350fbbbba5c1fbf634e24d3aa3fc07adf5c4",
+    "hashlock": "0xeec27fe791ff9b92b04cbe54ce8a0c221a7c18b253c92610f654c5464248eaac",
+    "amount": "10.0",
+    "makerAddress": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN",
+    "takerAddress": "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+    "timelock": 1754253704,
+    "network": "testnet"
+  },
+  "summary": {
+    "contractId": "aa46aa1a73c2be4f",
+    "hashlock": "0xeec27fe791ff9b92b04cbe54ce8a0c221a7c18b253c92610f654c5464248eaac",
+    "amount": "10.0",
+    "makerAddress": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN",
+    "takerAddress": "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+    "timelock": 1754253704,
+    "timelockExpired": false,
+    "network": "testnet"
+  },
+  "orderId": "stellar_order_1754167304138"
+}

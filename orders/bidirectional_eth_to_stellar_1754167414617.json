@@ -1,0 +1,45 @@
+{
+  "orderId": "bidirectional_eth_to_xlm_1754167414617",
+  "timestamp": 1754167414617,
+  "network": "base",
+  "chainId": 8453,
+  "direction": "ETH → XLM",
+  "maker": {
+    "address": "0x71A076E706c058cee2c7c87bA2Dc6fAe23Ec208e",
+    "provides": {
+      "asset": "ETH",
+      "amount": "1000000000000000"
+    },
+    "wants": {
+      "asset": "XLM",
+      "amount": "10.0",
+      "address": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    }
+  },
+  "secret": "0xa1e527c24fbc764a23d670831365e09d75a5b7aa1b0ab01920f17a603309f35e",
+  "hashlock": "0x2085e34f15488f03855eb740e620349da3acfeefbab4f5df094fe7b85c94514a",
+  "timelock": {
+    "withdrawalPeriod": 600,
+    "cancellationPeriod": 3600
+  },
+  "status": "COMPLETED",
+  "contracts": {
+    "escrowFactory": "0x119c71D3BbAC22029622cbaEc24854d3D32D2828",
+    "accessToken": "0x0000000000000000000000000000000000000000"
+  },
+  "stellarHTLC": {
+    "address": "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+    "contractId": "54a6d623db9cba6f",
+    "amount": "10.0",
+    "network": "testnet",
+    "claimBefore": 1754171014
+  },
+  "taker": {
+    "address": "0x2c48b1221d896f4e9d280e6a7a0feed9f8230087",
+    "stellarAddress": "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37"
+  },
+  "transactions": {
+    "stellarHTLCFunding": "80a996aef5631ffba265392189f54f62f421821751feb7eaf804ad71f1df7697",
+    "stellarHTLCClaim": "da03640812c924fcc0dd6cd8a9068426f7368c8e3ba18c35234a478b97fba76c"
+  }
+}
