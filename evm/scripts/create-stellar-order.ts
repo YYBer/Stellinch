@@ -51,11 +51,14 @@ interface AtomicSwapOrder {
   };
 }
 
+// Load wallet configuration securely
+import walletConfig from '../../wallet.json';
+
 // Stellar configuration
 const STELLAR_CONFIG = {
-  makerAddress: 'GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN',
-  takerAddress: 'GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY',
-  takerSecret: 'SBXHKKYFXIHQCPUYET4JWQG5TGNMLAAPF4WAX3HA7UHF5U3O5OBRPK2N',
+  makerAddress: walletConfig.stellarMaker.address,
+  takerAddress: walletConfig.stellarTaker.address,
+  takerSecret: walletConfig.stellarTaker.secret,
   network: 'testnet' as const
 };
 

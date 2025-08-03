@@ -1,0 +1,57 @@
+{
+  "orderId": "atomic_swap_1754214972851",
+  "timestamp": "2025-08-03T09:56:20.790Z",
+  "swap": {
+    "ethAmount": "0.001",
+    "xlmAmount": "10"
+  },
+  "crypto": {
+    "secret": "0x5e9ae504bdda9e2d75899c91a478d9f5689204cb8f2d323b7eaf52a8b86fc87b",
+    "hashlock": "0x899c7a5a4807f2d250a0c1a63851050075d3c0a7af8f83b49e6fbd73e30d886d"
+  },
+  "transactions": {
+    "baseEscrow": {
+      "hash": "0xbe825da79ba51fed06de0c5676c1c39782b763414490f2701da9b4c24f02ef8b",
+      "address": "0xb04EF6bc2e9d171ee73ba14Bd45a1D266AFa005C",
+      "amount": "0.001",
+      "immutables": {
+        "orderHash": "0x40edfda77b2e5bc71f45afeb4bbb51d37132489f8a73994a5c955ac6b87a6b70",
+        "hashlock": "0x899c7a5a4807f2d250a0c1a63851050075d3c0a7af8f83b49e6fbd73e30d886d",
+        "maker": "915134597703668434913591356451873948679151869463",
+        "taker": "1110037633405269375789510245459032458491954281364",
+        "token": "0",
+        "amount": "1000000000000000",
+        "safetyDeposit": "100000000000000",
+        "timelocks": "47293542087837152907183883620199718985604724441346968117601828243703911681552"
+      },
+      "blockNumber": 29223344,
+      "gasUsed": "70753"
+    },
+    "stellarHTLC": {
+      "hash": "0a963c8b00dce442441b1d596799897e76b2c45f63a890f9215b870ff95000b4",
+      "memo": "HTLC_899c7a5a4807f2d2",
+      "amount": "10",
+      "from": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY",
+      "to": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    },
+    "secretReveal": {
+      "hash": "b854018c30dd2293b49e228887f2069c1a779e7a0dda5e78ab84ec38e1fc311c",
+      "memo": "CLAIM_5e9ae504bdda9e2d7589",
+      "secret": "0x5e9ae504bdda9e2d75899c91a478d9f5689204cb8f2d323b7eaf52a8b86fc87b"
+    }
+  },
+  "contracts": {
+    "EscrowFactory": "0x8289b1d7193e9Cdf3626046287F2d564CAb6b154",
+    "EscrowDstImplementation": "0x39a18A3B810805cAf1211a76694A78CdeC7482c2"
+  },
+  "networks": {
+    "base": {
+      "rpc": "https://sepolia.base.org",
+      "chainId": 84532,
+      "explorer": "https://sepolia.basescan.org"
+    },
+    "stellar": {
+      "network": "testnet"
+    }
+  }
+}

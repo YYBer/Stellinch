@@ -1,0 +1,17 @@
+{
+  "network": "baseSepolia",
+  "chainId": "84532",
+  "deployer": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+  "timestamp": "2025-08-03T09:51:30.426Z",
+  "contracts": {
+    "EscrowFactory": "0x8289b1d7193e9Cdf3626046287F2d564CAb6b154",
+    "EscrowDstImplementation": "0x39a18A3B810805cAf1211a76694A78CdeC7482c2"
+  },
+  "constructorArgs": {
+    "accessToken": "0x0000000000000000000000000000000000000000",
+    "owner": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+    "rescueDelayDst": 86400,
+    "creationFee": 0,
+    "treasury": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17"
+  }
+}

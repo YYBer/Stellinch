@@ -1,0 +1,63 @@
+{
+  "orderId": "base_to_stellar_1754216295585",
+  "timestamp": "2025-08-03T10:18:27.790Z",
+  "swap": {
+    "ethAmount": "0.002",
+    "xlmAmount": "20"
+  },
+  "participants": {
+    "ethMaker": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+    "ethTaker": "0x7A5e47655CA56EADC48A46Ba4c3a0618eA02380E",
+    "stellarMaker": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN",
+    "stellarTaker": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY"
+  },
+  "crypto": {
+    "secret": "0x10f1c61bfa3a6abb74a412a11025518b878f8c9ea2e3958340a1d4ebc99af2c4",
+    "hashlock": "0x2e72e979e9459e1ca5238acbe3f0453c7c5fc7b2ad04b37f1a93179adcb34cd1"
+  },
+  "transactions": {
+    "baseEscrow": {
+      "hash": "0x17fb79ddd4b59014e5795f2576800d2cf6ba371e860d11f69b03eda374e50966",
+      "address": "0x086dC0ba74A535D22EC426df594DA32652395153",
+      "amount": "0.002",
+      "immutables": {
+        "orderHash": "0x565f3b7bda0e257b025625acda28bd04ef7785493c53ea4d01f9afe50604fee9",
+        "hashlock": "0x2e72e979e9459e1ca5238acbe3f0453c7c5fc7b2ad04b37f1a93179adcb34cd1",
+        "maker": "915134597703668434913591356451873948679151869463",
+        "taker": "698599363553138463950269881914348782565716015118",
+        "token": "0",
+        "amount": "2000000000000000",
+        "safetyDeposit": "100000000000000",
+        "timelocks": "47293577755846593547480331964660679112576105663289039138779220743780271394320"
+      },
+      "blockNumber": 29224005,
+      "gasUsed": "70753"
+    },
+    "stellarHTLC": {
+      "hash": "c7dc9680d4f5c544c192dbae0ebd5036e4ace003f884d486f112e1c3695b3b37",
+      "memo": "HTLC_2e72e979e9459e1c",
+      "amount": "20",
+      "from": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY",
+      "to": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    },
+    "secretReveal": {
+      "hash": "48530f4491c8dc81328a23f3714f531a7e04529261ec73c1e7b20ac38319eae0",
+      "memo": "CLAIM_10f1c61bfa3a6abb74a4",
+      "secret": "0x10f1c61bfa3a6abb74a412a11025518b878f8c9ea2e3958340a1d4ebc99af2c4"
+    }
+  },
+  "contracts": {
+    "EscrowFactory": "0x8289b1d7193e9Cdf3626046287F2d564CAb6b154",
+    "EscrowDstImplementation": "0x39a18A3B810805cAf1211a76694A78CdeC7482c2"
+  },
+  "networks": {
+    "base": {
+      "rpc": "https://base-sepolia.drpc.org",
+      "chainId": 84532,
+      "explorer": "https://sepolia.basescan.org"
+    },
+    "stellar": {
+      "network": "testnet"
+    }
+  }
+}

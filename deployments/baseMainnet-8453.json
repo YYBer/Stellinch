@@ -1,0 +1,17 @@
+{
+  "network": "baseMainnet",
+  "chainId": "8453",
+  "deployer": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+  "timestamp": "2025-08-03T12:04:12.195Z",
+  "contracts": {
+    "EscrowFactory": "0x9636704326e625BE026e0ED35d7Cb4Ff63D33d20",
+    "EscrowDstImplementation": "0x090D94412beBC2c14c3F7D1a094986d5F2862BDd"
+  },
+  "constructorArgs": {
+    "accessToken": "0x0000000000000000000000000000000000000000",
+    "owner": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+    "rescueDelayDst": 86400,
+    "creationFee": 0,
+    "treasury": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17"
+  }
+}

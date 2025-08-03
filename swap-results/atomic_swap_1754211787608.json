@@ -1,0 +1,59 @@
+{
+  "orderId": "atomic_swap_1754211787608",
+  "timestamp": "2025-08-03T09:03:17.682Z",
+  "swap": {
+    "ethAmount": "0.001",
+    "xlmAmount": "10"
+  },
+  "crypto": {
+    "secret": "0x5fdb2281c1250d18fbdc5e6c136986a3a3aba4b034f9b160d9ae9cb786d03511",
+    "hashlock": "0x968a8fc3f4c516875f03403b816a72b0abf5d4e816c35237af8ad8acc5634822"
+  },
+  "transactions": {
+    "baseEscrow": {
+      "hash": "0x8e4969c9753d0b5f80b48de33ca88f1a70fbbcd9139c5c8d6b9c0681c9c384f8",
+      "address": "0xe30653c265fadcb55af839c2e4e8b7dc70bb1372",
+      "amount": "0.001",
+      "parameters": {
+        "token": "0x0000000000000000000000000000000000000000",
+        "maker": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+        "taker": "0x13a82dFD1FF8a720C0CC5c530Da81951e957C1d1",
+        "amount": "1000000000000000",
+        "hashlock": "0x968a8fc3f4c516875f03403b816a72b0abf5d4e816c35237af8ad8acc5634822",
+        "safetyDeposit": "100000000000000",
+        "timelocks": {
+          "withdrawal": 1754215387,
+          "publicWithdrawal": 1754233387,
+          "cancellation": 1754298187
+        }
+      },
+      "simulated": true
+    },
+    "stellarHTLC": {
+      "hash": "d3dcb6eed323075f0fb19fa71d85ea2a2fa26bccdae0a7d6716775070099e0e6",
+      "memo": "HTLC_968a8fc3f4c51687",
+      "amount": "10",
+      "from": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY",
+      "to": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    },
+    "secretReveal": {
+      "hash": "c4a78ddfd6e20c655c29660a9af70778eefccb4d703048518826a74d93e820fb",
+      "memo": "CLAIM_5fdb2281c1250d18fbdc",
+      "secret": "0x5fdb2281c1250d18fbdc5e6c136986a3a3aba4b034f9b160d9ae9cb786d03511"
+    }
+  },
+  "contracts": {
+    "EscrowFactory": "0x119c71D3BbAC22029622cbaEc24854d3D32D2828",
+    "EscrowDst": "0x0000000000000000000000000000000000000001"
+  },
+  "networks": {
+    "base": {
+      "rpc": "https://sepolia.base.org",
+      "chainId": 84532,
+      "explorer": "https://sepolia.basescan.org"
+    },
+    "stellar": {
+      "network": "testnet"
+    }
+  }
+}

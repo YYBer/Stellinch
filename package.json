@@ -1,0 +1,30 @@
+{
+  "name": "stellinch-atomic-swap",
+  "version": "1.0.0",
+  "description": "Base-Stellar cross-chain atomic swap implementation",
+  "main": "test-stellar-swap.js",
+  "scripts": {
+    "test": "node test-stellar-swap.js",
+    "deploy:base": "npx hardhat run scripts/deploy.js --network baseTestnet",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network baseMainnet",
+    "compile": "npx hardhat compile",
+    "real-test": "node real-atomic-swap-test.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@stellar/stellar-sdk": "^12.3.0",
+    "dotenv": "^17.2.1",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "keywords": [
+    "atomic-swap",
+    "cross-chain",
+    "stellar",
+    "base",
+    "ethereum"
+  ],
+  "author": "Stellinch",
+  "license": "MIT"
+}

@@ -134,3 +134,6 @@ wallet-config.json
 # Private test files
 *-private.*
 *-real-test.*
+CLI_DEMO_INSTRUCTIONS.md
+.claude
+demo-refund.md

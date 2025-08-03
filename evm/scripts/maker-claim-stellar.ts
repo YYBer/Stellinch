@@ -69,14 +69,17 @@ interface AtomicSwapOrder {
   };
 }
 
+// Load wallet configuration securely
+import walletConfig from '../../wallet.json';
+
 // Stellar configuration
 const STELLAR_CONFIG = {
   networkPassphrase: 'testnet',
   horizonUrl: 'https://stellar.liquify.com/api=41EEWAH79Y5OCGI7/testnet',
-  makerSecret: 'SBORVJ6THXRT3VDS2LTMGA6PEDY2ZPZJHBQRTY7KRISACOATJ6XJHVDC',
-  makerAddress: 'GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN',
-  takerSecret: 'SBXHKKYFXIHQCPUYET4JWQG5TGNMLAAPF4WAX3HA7UHF5U3O5OBRPK2N',
-  takerAddress: 'GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY'
+  makerSecret: walletConfig.stellarMaker.secret,
+  makerAddress: walletConfig.stellarMaker.address,
+  takerSecret: walletConfig.stellarTaker.secret,
+  takerAddress: walletConfig.stellarTaker.address
 };
 
 async function main() {
