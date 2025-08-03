@@ -1,0 +1,57 @@
+{
+  "orderId": "atomic_swap_1754229194808",
+  "timestamp": "2025-08-03T13:53:31.757Z",
+  "swap": {
+    "ethAmount": "0.001",
+    "xlmAmount": "10"
+  },
+  "crypto": {
+    "secret": "0xef60f96d8a3f8a1e72105c383b0518b542f35685032a8489a5041f953602d91d",
+    "hashlock": "0x89d82181c219fa0a670235924525a1158ff48ea1a2c84196b0cbee019902a5ab"
+  },
+  "transactions": {
+    "baseEscrow": {
+      "hash": "0x84e72176d66ef6f30b3d861aca8327d8b9deba6de3c74d35c377baffed0f7f15",
+      "address": "0x24d18caCd4488861Ac2FDeFEaE7D87b686b2cb75",
+      "amount": "0.001",
+      "immutables": {
+        "orderHash": "0x2b80da99f123eb9a2d3a2af59f97e58716fc76e42911d2a154605ab10277f2a3",
+        "hashlock": "0x89d82181c219fa0a670235924525a1158ff48ea1a2c84196b0cbee019902a5ab",
+        "maker": "915134597703668434913591356451873948679151869463",
+        "taker": "633879498908287991236814683644567207926804758815",
+        "token": "0",
+        "amount": "1000000000000000",
+        "safetyDeposit": "100000000000000",
+        "timelocks": "47293925512198653123583043374488286578792164908814945489623654499248876031504"
+      },
+      "blockNumber": 33719925,
+      "gasUsed": "70753"
+    },
+    "stellarHTLC": {
+      "hash": "09e24c7192af769002627d1db5140befaa4c8fd0a481a9a64f59adcf78e9c141",
+      "memo": "HTLC_89d82181c219fa0a",
+      "amount": "10",
+      "from": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY",
+      "to": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    },
+    "secretReveal": {
+      "hash": "09b7f3c59becacccd8da68a896d1df29a62e76f30d2a2afd2377ef0c1f1ef523",
+      "memo": "CLAIM_ef60f96d8a3f8a1e7210",
+      "secret": "0xef60f96d8a3f8a1e72105c383b0518b542f35685032a8489a5041f953602d91d"
+    }
+  },
+  "contracts": {
+    "EscrowFactory": "0x9636704326e625BE026e0ED35d7Cb4Ff63D33d20",
+    "EscrowDstImplementation": "0x090D94412beBC2c14c3F7D1a094986d5F2862BDd"
+  },
+  "networks": {
+    "base": {
+      "rpc": "https://mainnet.base.org",
+      "chainId": 8453,
+      "explorer": "https://basescan.org"
+    },
+    "stellar": {
+      "network": "testnet"
+    }
+  }
+}

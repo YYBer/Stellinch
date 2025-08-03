@@ -6,7 +6,7 @@ This demo shows how to run atomic swaps between Base mainnet and Stellar testnet
 ## Prerequisites
 
 ### Required Funds
-- **Base ETH Maker Wallet**: Needs ~0.0015 ETH for gas + swap amounts (currently has 0.0008 ETH)
+- **Base ETH Maker Wallet**: Needs ~0.0015 ETH for gas + swap amounts
 - **Base ETH Taker Wallet**: Has 0.004 ETH ✅
 - **Stellar Accounts**: Auto-funded on testnet with ~10,000 XLM each ✅
 
@@ -24,8 +24,8 @@ This demo shows how to run atomic swaps between Base mainnet and Stellar testnet
 ⚠️ **ETH Maker Needs More Funding**: 0.0008 ETH current, needs 0.0015 ETH
 
 ### Account Balances
-- **ETH Maker**: 0xa04c0DFA9B5229104E34676E640d7Dd18F70de17 (0.0008 ETH - needs 0.0007 ETH more)
-- **ETH Taker**: 0x7A5e47655CA56EADC48A46Ba4c3a0618eA02380E (0.004 ETH ✅)
+- **ETH Maker**: 0xa04c0DFA9B5229104E34676E640d7Dd18F70de17 (0.0038 ETH ✅)
+- **ETH Taker**: 0x7A5e47655CA56EADC48A46Ba4c3a0618eA02380E (0.001 ETH ✅)
 - **Stellar Maker**: GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN (10,050 XLM ✅)
 - **Stellar Taker**: GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY (9,950 XLM ✅)
 

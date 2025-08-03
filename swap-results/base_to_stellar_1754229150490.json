@@ -1,0 +1,63 @@
+{
+  "orderId": "base_to_stellar_1754229150490",
+  "timestamp": "2025-08-03T13:52:46.807Z",
+  "swap": {
+    "ethAmount": "0.001",
+    "xlmAmount": "10"
+  },
+  "participants": {
+    "ethMaker": "0xa04c0DFA9B5229104E34676E640d7Dd18F70de17",
+    "ethTaker": "0x7A5e47655CA56EADC48A46Ba4c3a0618eA02380E",
+    "stellarMaker": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN",
+    "stellarTaker": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY"
+  },
+  "crypto": {
+    "secret": "0x7e97e75003c5cb6a46d1323cd40d3bd7a40a14ed066b19454c3b78229e8e510c",
+    "hashlock": "0xa445990a855ed79d1b7ed20cd765775285256c09ea9bcb05eea641cb5a196ebb"
+  },
+  "transactions": {
+    "baseEscrow": {
+      "hash": "0xedea50304c498d35233cc1285a88d3df9ae37bc55c5da3e30601be26d5a61199",
+      "address": "0xBCE2571936d8e9c9799d09B783CF95bf8F5fB095",
+      "amount": "0.001",
+      "immutables": {
+        "orderHash": "0x6b2752c455e5890add1f369fcdf06c53001d355382acdecae487d5e7d2d40ae0",
+        "hashlock": "0xa445990a855ed79d1b7ed20cd765775285256c09ea9bcb05eea641cb5a196ebb",
+        "maker": "915134597703668434913591356451873948679151869463",
+        "taker": "698599363553138463950269881914348782565716015118",
+        "token": "0",
+        "amount": "1000000000000000",
+        "safetyDeposit": "100000000000000",
+        "timelocks": "47293924325960999768954892409139622749928415268780590897838465330690025066000"
+      },
+      "blockNumber": 33719903,
+      "gasUsed": "70753"
+    },
+    "stellarHTLC": {
+      "hash": "f96147503f2c69b632bc58c4df77ae8e1ad042e6cfe141117eac336195f9731c",
+      "memo": "HTLC_a445990a855ed79d",
+      "amount": "10",
+      "from": "GBI4P5IHHXBQQ4BQQBF453NOEAWVAOJIBNMVQQXRZS4PSUUCZ3XWIJOY",
+      "to": "GCYYNNOGU2NX2KQN3MVFTA2A2EMJ7K3BMYUQB7AVZ7FX4J4YW7MMFMWN"
+    },
+    "secretReveal": {
+      "hash": "d0cab217d6a8c5122eca964133f8f7ce19f543396a9ad6ccfcc3957bf421943f",
+      "memo": "CLAIM_7e97e75003c5cb6a46d1",
+      "secret": "0x7e97e75003c5cb6a46d1323cd40d3bd7a40a14ed066b19454c3b78229e8e510c"
+    }
+  },
+  "contracts": {
+    "EscrowFactory": "0x9636704326e625BE026e0ED35d7Cb4Ff63D33d20",
+    "EscrowDstImplementation": "0x090D94412beBC2c14c3F7D1a094986d5F2862BDd"
+  },
+  "networks": {
+    "base": {
+      "rpc": "https://mainnet.base.org",
+      "chainId": 8453,
+      "explorer": "https://basescan.org"
+    },
+    "stellar": {
+      "network": "testnet"
+    }
+  }
+}
